@@ -7,9 +7,13 @@ import '../styles/Gender.css';
         window.location.assign('http://localhost:3000/glasses');
     }
 
+    function ofclick() {
+        window.location.assign('http://localhost:3000/');
+    }
+
     return(
         <div className="gender-page">
-            <button onClick={() => onclick()}>{'<'}</button>
+            <button onClick={() => ofclick()}>{'<'}</button>
             <ReturnComponent/>
             <h1 className="gender-h1">You are looking for</h1>
             <button className="gender-btn1" onClick={() => onclick()}>Woman's Styles</button> <br />

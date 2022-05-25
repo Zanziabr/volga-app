@@ -7,9 +7,12 @@ const SendComponent = function () {
         window.location.assign("http://localhost:3000/");
     }
 
+    function ofclick() {
+        window.location.assign('http://localhost:3000/brands');
+    }
     return(
         <div className="send-page">
-            <button onClick={() => onclick()}>{'<'}</button>
+            <button onClick={() => ofclick()}>{'<'}</button>
             <ReturnComponent />
             <h1 className="send-h1">We've found some awesome frames for you</h1>
             <h2 className="send-h2">Send the result to your email to receive special discounts</h2>

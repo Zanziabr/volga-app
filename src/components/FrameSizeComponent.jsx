@@ -7,9 +7,13 @@ import '../styles/FrameSize.css';
         window.location.assign('http://localhost:3000/shades');
     }
 
+    function ofclick() {
+        window.location.assign('http://localhost:3000/glasses');
+    }
+
     return(
         <div class="framesize-page">
-            <button onClick={() => onclick()}>{'<'}</button>
+            <button onClick={() => ofclick()}>{'<'}</button>
             <ReturnComponent/>
             <h1 className="framesize-h1">What's your current frame-size</h1>
             <button className="framesize-btn1" onClick={() => onclick()}>Small 42-48mm</button> < br/>

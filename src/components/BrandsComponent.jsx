@@ -31,9 +31,13 @@ const BrandsComponent = function () {
         window.location.assign("http://localhost:3000/send");
     }
 
+    function ofclick() {
+        window.location.assign('http://localhost:3000/frame-style');
+    }
+
     return(
         <div className="brands-page">
-            <button onClick={() => onclick()}>{'<'}</button>
+            <button onClick={() => ofclick()}>{'<'}</button>
             <ReturnComponent/>
             <h1 className="brands-h1">Choose your favorite brands</h1>
             <h2 className="brands-h2">You can pick more than one.</h2>

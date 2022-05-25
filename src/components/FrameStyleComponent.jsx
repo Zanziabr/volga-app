@@ -30,9 +30,12 @@ const FrameStyleComponent = function () {
     function onclick() {
         window.location.assign("http://localhost:3000/brands");
     }
+    function ofclick() {
+        window.location.assign('http://localhost:3000/facial-features');
+    }
     return(
         <div className="framestyle-page">
-            <button onClick={() => onclick()}>{'<'}</button>
+            <button onClick={() => ofclick()}>{'<'}</button>
             <ReturnComponent/>
             <h1 className="framestyle-h1">Which frame style are you looking for?</h1>
             <h2 className="framestyle-h2">You can pick more than one.</h2>

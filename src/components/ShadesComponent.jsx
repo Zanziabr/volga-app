@@ -7,9 +7,12 @@ import '../styles/Shades.css';
         window.location.assign('http://localhost:3000/faces');
     }
 
+    function ofclick() {
+        window.location.assign("http://localhost:3000/frame-size");
+    }
     return(
         <div className="shades-page">
-            <button onClick={() => onclick()}>{'<'}</button>
+            <button onClick={() => ofclick()}>{'<'}</button>
             <ReturnComponent/>
             <h1 className="shades-h1">Which shade of lenses do you prefer?</h1>
             <button className="shades-btn1" onClick={() => onclick()}>Dark Shade</button>

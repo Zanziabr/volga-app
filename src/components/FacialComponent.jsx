@@ -7,9 +7,12 @@ import '../styles/Facial.css';
         window.location.assign('http://localhost:3000/frame-style');
     }
 
+    function ofclick() {
+        window.location.assign('http://localhost:3000/faces');
+    }
     return(
         <div className="facial-page">
-            <button onClick={() => onclick()}>{'<'}</button>
+            <button onClick={() => ofclick()}>{'<'}</button>
             <ReturnComponent/>
             <h1 className="facial-h1">How would you define your facial features?</h1>
             <button className="facial-btn1" onClick={() => onclick()}>Sharp</button> <br />
