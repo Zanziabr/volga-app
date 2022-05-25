@@ -1,0 +1,37 @@
+.gender-page{
+    background-color: snow;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    max-height: 100%;
+}
+
+.gender-h1{
+    font-weight: lighter;
+    text-align: center;
+}
+
+
+.gender-btn1{
+    position: relative;
+    left: 21%;
+    border-radius: 10px;
+    padding: 20px 40px;
+    cursor: pointer;
+    background-color: white;
+    color: grey;
+}
+
+
+
+.gender-btn2{
+    position: relative;
+    left: 23%;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin-top: 25px;
+    cursor: pointer;
+    background-color: white;
+    color: grey;
+}

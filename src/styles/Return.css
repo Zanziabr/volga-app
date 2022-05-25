@@ -1,0 +1,12 @@
+.return-btn{
+    padding: 5px 15px;
+    position: relative;
+    color: grey;
+    background: white;
+    cursor: pointer;
+    bottom: 22px;
+}
+.return-page{
+    display: flex;
+    justify-content: right;
+}

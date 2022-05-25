@@ -1,0 +1,75 @@
+.framestyle-page{
+    background-color: snow;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    max-height: 100%;
+}
+
+.framestyle-h1{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.framestyle-h2{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.framestyle-btn1{
+    position: relative;
+    background: white;
+    color: grey;
+    padding: 20px 40px;
+    left: 5%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.framestyle-btn2{
+    position: relative;
+    background: white;
+    color: grey;
+    padding: 20px 40px;
+    border-radius: 10px;
+    left: 5%;
+    cursor: pointer;
+    margin-left: 5%;
+}
+
+.framestyle-btn3{
+    position: relative;
+    background: white;
+    color: grey;
+    padding: 20px 40px;
+    left: 5%;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.framestyle-btn4{
+    position: relative;
+    background: white;
+    color: grey;
+    padding: 20px 40px;
+    left: 3%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.framestyle-c{
+    position: relative;
+    left: 35%;
+    margin-top: 10%;
+    background: dodgerblue;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 0px;
+}
+

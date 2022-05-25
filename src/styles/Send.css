@@ -1,0 +1,33 @@
+.send-page{
+    background-color: snow;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    max-height: 100%;
+}
+
+.send-h1{
+    text-align: center;
+    color: dodgerblue;
+}
+
+.send-h2{
+    text-align: center;
+}
+
+.send-h5{
+    text-align: center;
+}
+
+.send-btn{
+    background: dodgerblue;
+    color: white;
+    position: relative;
+    left: 38%;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 0px;
+}
+

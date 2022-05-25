@@ -1,0 +1,45 @@
+.facial-page{
+    background-color: snow;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    max-height: 100%;
+}
+
+.facial-h1{
+    font-weight: lighter;
+    text-align: center;
+}
+
+.facial-btn1{
+    position: relative;
+    background: white;
+    color: grey;
+    padding: 20px 40px;
+    left: 30%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.facial-btn2{
+    position: relative;
+    background: white;
+    color: grey;
+    padding: 20px 40px;
+    border-radius: 10px;
+    left: 27%;
+    cursor: pointer;
+    margin-top: 10%;
+}
+
+.facial-btn3{
+    position: relative;
+    background: white;
+    color: grey;
+    border-radius: 10px;
+    padding: 20px 40px;
+    left: 25%;
+    cursor: pointer;
+    margin-top: 10%;
+}
