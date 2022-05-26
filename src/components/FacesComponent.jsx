@@ -1,5 +1,6 @@
 import React from "react";
 import ReturnComponent from "./ReturnComponent";
+import BackComponent from "./BackComponent";
 import '../styles/Faces.css';
  const FacesComponent = function () {
 
@@ -12,7 +13,7 @@ import '../styles/Faces.css';
     }
     return(
         <div className="faces-page">
-            <button onClick={() => ofclick()}>{'<'}</button>
+            <button onClick={() => ofclick()}><BackComponent /></button>
             <ReturnComponent/>
             <h1 className="faces-h1">Every face shape has a perfect fit. What's yours?</h1>
             <button className="faces-btn1" onClick={() => onclick()}>I have a long face</button> <br/>

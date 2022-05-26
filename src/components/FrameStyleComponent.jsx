@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ReturnComponent from "./ReturnComponent";
+import BackComponent from "./BackComponent";
 import '../styles/FrameStyle.css';
 const FrameStyleComponent = function () {
 
@@ -35,15 +36,27 @@ const FrameStyleComponent = function () {
     }
     return(
         <div className="framestyle-page">
-            <button onClick={() => ofclick()}>{'<'}</button>
+            <button onClick={() => ofclick()}><BackComponent /></button>
             <ReturnComponent/>
             <h1 className="framestyle-h1">Which frame style are you looking for?</h1>
             <h2 className="framestyle-h2">You can pick more than one.</h2>
-            <div>
-                <button className="framestyle-btn1" onClick={buttonClick1} style={{border: btn1 ? "2px solid blue" : ""}}>Rectange</button>
-                <button className="framestyle-btn2" onClick={buttonClick2} style={{border: btn2 ? "2px solid blue" : ""}}>Browline</button>
-                <button className="framestyle-btn3" onClick={buttonClick3} style={{border: btn3 ? "2px solid blue" : ""}}>Wayframe</button>
-                <button className="framestyle-btn4" onClick={buttonClick4} style={{border: btn4 ? "2px solid blue" : ""}}>Cat eye</button>
+            <div className="framestyle-scrollbar">
+                <button className="framestyle-btn1" onClick={buttonClick1} style={{border: btn1 ? "2px solid blue" : ""}}>
+                    <div className="rectangle-logo"></div>
+                    Rectange
+                </button>
+                <button className="framestyle-btn2" onClick={buttonClick2} style={{border: btn2 ? "2px solid blue" : ""}}>
+                    <div className="browline-logo"></div>
+                    Browline
+                </button>
+                <button className="framestyle-btn3" onClick={buttonClick3} style={{border: btn3 ? "2px solid blue" : ""}}>
+                    <div className="wayframe-logo"></div>
+                    Wayframe
+                </button>
+                <button className="framestyle-btn4" onClick={buttonClick4} style={{border: btn4 ? "2px solid blue" : ""}}>
+                    <div className="round-logo"></div>
+                    Round
+                </button>
             </div>
             <button className="framestyle-c" onClick={() => onclick()}>Continue</button>
         </div>

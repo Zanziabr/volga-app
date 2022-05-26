@@ -20,6 +20,7 @@
     left: 20%;
     border-radius: 10px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .framesize-btn2{
@@ -42,4 +43,15 @@
     background: white;
     color: grey;
     cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.framesize-logo{
+    background-image: url('../images/framesize-logo.PNG');
+    width: 270px;
+    height: 180px;
+    top: 100%;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
 }

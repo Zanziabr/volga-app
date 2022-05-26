@@ -1,5 +1,6 @@
 import React from "react";
 import ReturnComponent from "./ReturnComponent";
+import BackComponent from "./BackComponent";
 import '../styles/FrameSize.css';
  const FrameSizeComponent = function () {
 
@@ -13,9 +14,10 @@ import '../styles/FrameSize.css';
 
     return(
         <div class="framesize-page">
-            <button onClick={() => ofclick()}>{'<'}</button>
+            <button onClick={() => ofclick()}><BackComponent /></button>
             <ReturnComponent/>
             <h1 className="framesize-h1">What's your current frame-size</h1>
+            <div className="framesize-logo"></div>
             <button className="framesize-btn1" onClick={() => onclick()}>Small 42-48mm</button> < br/>
             <button className="framesize-btn2" onClick={() => onclick()}>Medium 49-53mm</button> <br/>
             <button className="framesize-btn3" onClick={() => onclick()}>Large 54-58mm</button>

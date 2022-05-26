@@ -1,0 +1,7 @@
+.back-btn{
+    padding: 5px 10px;
+    position: relative;
+    background: white;
+    cursor: pointer;
+    color: grey;
+}

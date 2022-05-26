@@ -1,5 +1,6 @@
 import React from "react";
 import ReturnComponent from "./ReturnComponent";
+import BackComponent from "./BackComponent";
 import '../styles/Send.css';
 const SendComponent = function () {
 
@@ -12,7 +13,7 @@ const SendComponent = function () {
     }
     return(
         <div className="send-page">
-            <button onClick={() => ofclick()}>{'<'}</button>
+            <button onClick={() => ofclick()}><BackComponent /></button>
             <ReturnComponent />
             <h1 className="send-h1">We've found some awesome frames for you</h1>
             <h2 className="send-h2">Send the result to your email to receive special discounts</h2>

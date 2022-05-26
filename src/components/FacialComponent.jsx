@@ -1,5 +1,6 @@
 import React from "react";
 import ReturnComponent from "./ReturnComponent";
+import BackComponent from "./BackComponent";
 import '../styles/Facial.css';
  const FacialComponent = function () {
 
@@ -12,7 +13,7 @@ import '../styles/Facial.css';
     }
     return(
         <div className="facial-page">
-            <button onClick={() => ofclick()}>{'<'}</button>
+            <button onClick={() => ofclick()}><BackComponent /></button>
             <ReturnComponent/>
             <h1 className="facial-h1">How would you define your facial features?</h1>
             <button className="facial-btn1" onClick={() => onclick()}>Sharp</button> <br />

@@ -17,7 +17,7 @@
     background: white;
     color: grey;
     padding: 20px 40px;
-    left: 25%;
+    left: 20%;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -28,7 +28,7 @@
     color: grey;
     border-radius: 10px;
     padding: 20px 40px;
-    left: 25%;
+    left: 20%;
     cursor: pointer;
     margin-top: 10%;
 }
@@ -42,4 +42,41 @@
     left: 17%;
     cursor: pointer;
     margin-top: 10%;
+    margin-bottom: 10px;
+}
+
+.dark-logo{
+    background-image: url('../images/dark-logo.PNG');
+    width: 100px;
+    height: 80px;
+    top: 100%;
+    position: relative;
+    right: 10px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.light-logo{
+    background-image: url('../images/light-logo.PNG');
+    width: 100px;
+    height: 80px;
+    top: 100%;
+    position: relative;
+    right: 10px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.transit-logo{
+    background-image: url('../images/transit-logo.PNG');
+    width: 100px;
+    height: 80px;
+    top: 100%;
+    position: relative;
+    right: 10px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
 }
